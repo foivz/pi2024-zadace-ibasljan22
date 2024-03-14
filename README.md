@@ -13,6 +13,7 @@ Ivan Bašljan  | ibasljan22@foi.hr | 0016158450 | ibasljan22
 
 ## Specifikacija projekta
 (Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
+<br> Trebalo bi napraviti aplikaciju koja će biti laka za koristiti svim osobama, pogotovo studentima. Treba pružati brzo i lagano dogovaranje pregleda kod liječnika. Isto tako treba stupiti u vezu sa raznim bolnicama, ordinacijama i doktorima jer će se njih trebati staviti na aplikaciju. Isto tako bi i samo doktori, liječnici trebali lako i s razumijevanjem koristiti ovu aplikaciju da što brže i lakše odgovaraju potencijalnim pacijentima.
 
 ## Zadatak
 (U root repozitorija učitajte zadatak koji ste dobili i potom ovdje stavite link na njegovo otvaranje!)
