@@ -8,7 +8,6 @@ Ivan Bašljan  | ibasljan22@foi.hr | 0016158450 | ibasljan22
 
 
 ## Opis domene
-(Vlastitim riječima opišite domenu ili problem koji pokriva projekt vaše zadaće!)
 <br> Potrebno je napraviti softver koji će osobama, ponajviše studentima, olakšati pristup liječnicima opće prakse bez nekakvog čekanja u redu. Softver bi trebao imati više mogućih paketa koji se plaćaju. Ciljana populacija su studenti pa će za njih biti 10% popusta na usluge softvera uz priležeću iskicu, no svatko može koristiti softver.
 
 ## Specifikacija projekta
