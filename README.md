@@ -9,11 +9,10 @@ Ivan Bašljan  | ibasljan22@foi.hr | 0016158450 | ibasljan22
 
 ## Opis domene
 (Vlastitim riječima opišite domenu ili problem koji pokriva projekt vaše zadaće!)
-<br> Provedena su istraživanja u kojima je utvrđeno da u današnjem modernom svijetu zbog mnogih obveza dolazi do zanemarivanja vlastitog zdravlja, pogotovo u studentskoj populaciji. Naime njima je zdravlje jako nisko na listi prioriteta. Zanemaruju svoje zdravlje sve dok ne dođe do nekih ozbiljnijih problema, poteškoća zbog kojih više nisu u stanju normalno obavljati svoje obveze i tada zdravlje postaje najvažnija stvar. Imaju takav stav prema zdravlju zbog dva problema. Jedan je redovi čekanja da se dođe na red kod liječnika, a drugi je udaljenost od vlastitog liječnika. Ovaj drugi problem se najviše ističe među studentima jer su oni većinom na studiju negdje dalje izvan svoga mjesta. Time su udaljeni od svoga liječnika i ne žele ići dalje na hitne prijeme sve dok na to nisu primorani. 
+<br> Potrebno je napraviti softver koji će osobama, ponajviše studentima, olakšati pristup liječnicima opće prakse bez nekakvog čekanja u redu. Softver bi trebao imati više mogućih paketa koji se plaćaju. Ciljana populacija su studenti pa će za njih biti 10% popusta na usluge softvera uz priležeću iskicu, no svatko može koristiti softver.
 
 ## Specifikacija projekta
 (Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
-<br> Trebalo bi napraviti aplikaciju koja će biti laka za koristiti svim osobama, pogotovo studentima. Treba pružati brzo i lagano dogovaranje pregleda kod liječnika. Isto tako treba stupiti u vezu sa raznim bolnicama, ordinacijama i doktorima jer će se njih trebati staviti na aplikaciju. Isto tako bi i samo doktori, liječnici trebali lako i s razumijevanjem koristiti ovu aplikaciju da što brže i lakše odgovaraju potencijalnim pacijentima.
 
 ## Zadatak
 [Link na zadatak](https://github.com/foivz/pi2024-zadace-ibasljan22/blob/master/Korisni%C4%8Dki%20zahtjevi%20-%20Softver%20za%20osobnu%20telemedicinu.pdf)
