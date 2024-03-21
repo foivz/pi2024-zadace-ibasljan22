@@ -21,7 +21,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-2
 -|-
-Zahtjev | Sustav će omogućiti pacijentima odabir i pretplatu na jednu od ponuđenih zdravstvenih usluga, pregled na koju su uslugu točno pretplaćeni te 
+Zahtjev | Sustav će omogućiti pacijentima odabir i pretplatu na jednu od ponuđenih zdravstvenih usluga, pregled na koju su uslugu točno pretplaćeni 
 Obrazloženje | Pacijenti odmah čim se ulogiraju u aplikaciju imati će odmah prikazane ponuđene zdravstvene usluge. Pacijentima će biti omogućena fleksibilnost u odabiru paketa koji najbolje odgovaraju njihovim potrebama i financijskim mogućnostima.
 Način provjere | Nakon što se pacijenti ulogiraju u aplikaciju trebaju odabrati jedan od ponuđenih medicinskih usluga te dovršiti plaćanje odabrane usluge. Nakon plaćanja pacijent bi trebao vidjeti na koju je točno uslugu pretplaćen.
 Prioritet [1-5] | 2
