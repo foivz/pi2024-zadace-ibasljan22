@@ -37,10 +37,10 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-4
 -|-
-Zahtjev | Sustav će omogućiti korisnicima pregled vlastitih medicinskih podataka, uključujući povijest bolesti, alergije, lijekove i laboratorijske nalaze
+Zahtjev | Sustav će omogućiti pacijentima pregled vlastitih zahtjeva za pregled, pregled medicinskih podataka, uključujući povijest bolesti, alergije, lijekove i laboratorijske nalaze
 Obrazloženje | Pacijentima koji se uspješno prijave u aplikaciju pomoću korisničkog imena i lozinke će odmah na početnom ekranu moći vidjeti vlastito zdravstveno stanje uključujući povijest bolesti, alergije, lijekove i laboratorijske nalaze. Moći će vidjeti svoje zahtjeve za pregledom te u njima čitati preporuke, savjete svoga liječnika. 
 Način provjere | Trebalo bi se uspješno prijaviti u sustav sa korisničkim imenom i lozinkom nakon toga bi na početnom ekranu trebali vidjeti vlastito zdravstveno stanje uključujući povijest bolesti, alergije, lijekove, laboratorijske nalaze te vidjeti svoje zahtjeve za pregledom te u njima čitati preporuke, savjete svoga liječnika. 
-Prioritet [1-5] | 1
+Prioritet [1-5] | 3
 Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-5
