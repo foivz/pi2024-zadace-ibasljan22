@@ -21,7 +21,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-2
 -|-
-Zahtjev | Sustav će omogućiti pacijentima odabir i pretplatu na jednu od ponuđenih zdravstvenih usluga, pregled na koju su uslugu točno pretplaćeni 
+Zahtjev | Sustav će omogućiti odabir i pretplatu na jednu od ponuđenih zdravstvenih usluga te pregled na koju su uslugu točno pretplaćeni svakom autentificiranom pacijentu
 Obrazloženje | Pacijenti odmah čim se ulogiraju u aplikaciju imati će odmah prikazane ponuđene zdravstvene usluge. Pacijentima će biti omogućena fleksibilnost u odabiru paketa koji najbolje odgovaraju njihovim potrebama i financijskim mogućnostima.
 Način provjere | Nakon što se pacijenti ulogiraju u aplikaciju trebaju odabrati jedan od ponuđenih medicinskih usluga te dovršiti plaćanje odabrane usluge. Nakon plaćanja pacijent bi trebao vidjeti na koju je točno uslugu pretplaćen.
 Prioritet [1-5] | 2
@@ -29,7 +29,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-3
 -|-
-Zahtjev | Sustav će omogućit pacijentima odabir jednog od dostupnih i ugovorenih liječnika te mogućnost slanja zahtjeva za pregled svome liječniku
+Zahtjev | Sustav će omogućit odabir jednog od dostupnih i ugovorenih liječnika te mogućnost slanja zahtjeva za pregled svome liječniku  svakome autentificiranom pacijentu
 Obrazloženje | Nakon što se pacijent uspješno prijavi u aplikaciju na početnom ekranu će moći vidjeti svoje medicinske podatke, no isto tako će moći vidjeti listu liječnika na kojoj mora odabrati jednoga, a nakon odabira dobiva opciju za stvaranjem novog zahtjeva za pregled u kojem su sadržani medicinski podaci pacijenta.  
 Način provjere | Treba se uspješno prijaviti u aplikaciju te bi se odmah na početnom ekranu trebao odabrati liječnik i nakon toga bi trebala biti otključana opcija stvaranja zahtjeva za pregledom koji se odmah šalje liječniku i u njemu su medicinski podaci pacijenta. 
 Prioritet [1-5] | 1
@@ -37,7 +37,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-4
 -|-
-Zahtjev | Sustav će omogućiti pacijentima pregled vlastitih zahtjeva za pregled, pregled medicinskih podataka, uključujući povijest bolesti, alergije, lijekove i laboratorijske nalaze
+Zahtjev | Sustav će omogućiti  pregled vlastitih zahtjeva za pregled, pregled medicinskih podataka, uključujući povijest bolesti, alergije, lijekove i laboratorijske nalaze svim autentificiranim pacijentima
 Obrazloženje | Pacijentima koji se uspješno prijave u aplikaciju pomoću korisničkog imena i lozinke će odmah na početnom ekranu moći vidjeti vlastito zdravstveno stanje uključujući povijest bolesti, alergije, lijekove i laboratorijske nalaze. Moći će vidjeti svoje zahtjeve za pregledom te u njima čitati preporuke, savjete svoga liječnika. 
 Način provjere | Trebalo bi se uspješno prijaviti u sustav sa korisničkim imenom i lozinkom nakon toga bi na početnom ekranu trebali vidjeti vlastito zdravstveno stanje uključujući povijest bolesti, alergije, lijekove, laboratorijske nalaze te vidjeti svoje zahtjeve za pregledom te u njima čitati preporuke, savjete svoga liječnika. 
 Prioritet [1-5] | 3
@@ -45,7 +45,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-5
 -|-
-Zahtjev | Sustav će omogućiti liječnicima da vide koga imaju za pacijenta te pregled njihovih osobnih i medicinskih podataka 
+Zahtjev | Sustav će omogućiti liječnicima da vide koga imaju za pacijenta te pregled pacijentovih osobnih i medicinskih podataka 
 Obrazloženje | Nakon što se liječnik prijavi u aplikaciju pomoću korisničkog imena i vlastite lozinke na početnom zaslonu će vidjeti sve pacijenata koji su njega odabrali za svoga liječnika na aplikaciji, a ako odabere nekog od pacijenata onda će mu prikazati osobne i medicinske podatke samog pacijetna.  
 Način provjere | Liječnik bi se trebao uspješno prijaviti u aplikaciju te bi odmah na početnom zaslonu trebao vidjeti sve svoje pacijente, a kada bi kliknuo na jednog od njih onda bi mu se trebali prikazati osobni i medicinski podaci toga pacijenta.
 Prioritet [1-5] | 2
@@ -53,7 +53,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-6
 -|-
-Zahtjev | Sustav će omogućiti liječnicima da uređuju i pregledavaju sve zahtjeve za pregled na temelju rezultata nalaza i razgovora sa pacijentom
+Zahtjev | Sustav će omogućiti uređivanje i pregledavanje svih zahtjeva za pregled na temelju rezultata nalaza i razgovora sa pacijentom svakom 
 Obrazloženje | Liječnici će imati uvid u zahtjev za pregled koji dobije od pacijenta. Moći će uređivati i pisati vlastite bilješke, preporuke na temelju nalaza, pretraga i razgovora sa pacijentom.
 Način provjere | Kada se liječnik prijavi u sustav imati će uvid u sve zahtjeve za pregled koje je dobio od svojih pacijenata. U njih će moći pisati preporuke, rezultate nalaza i pretraga te uređivate sve te podatke.
 Prioritet [1-5] | 1
@@ -62,7 +62,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-7
 -|-
-Zahtjev | Sustav će omogućiti developer timu aplikacije da ispišu statističke podatke korištenja pojedine medicinske usluge 
+Zahtjev | Sustav će omogućiti da ispis statističkih podatka korištenja pojedine medicinske usluge developer timu aplikacije
 Obrazloženje | Developer tim aplikacije ima uvid u sve aspekte same aplikacije te će moći vidjeti koliko korisnika koristi koju medicinsku uslugu.
 Način provjere | Član developer tima bi se trebao prijaviti u aplikaciju preko admin korisničkog imena i admin lozinke, nakon čega bi trebao vidjeti koju od ponuđenih medicinskih usluga ima svaki od korisnika. 
 Prioritet [1-5] | 2
