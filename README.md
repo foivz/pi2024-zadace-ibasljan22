@@ -1,4 +1,5 @@
-# Softver za osobnu telemedicinu
+# Naziv projekta
+Softver za osobnu telemedicinu
 
 ## Podaci o studentu
 
