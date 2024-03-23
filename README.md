@@ -71,7 +71,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-8
 -|-
-Zahtjev | Sustav će omogućiti da ispis statističkih podatka korištenja pojedine medicinske usluge developer timu aplikacije
+Zahtjev | Sustav će omogućiti ispis statističkih podatka korištenja pojedine medicinske usluge developer timu aplikacije
 Obrazloženje | Developer tim aplikacije ima uvid u sve aspekte same aplikacije te će moći vidjeti koliko korisnika koristi koju medicinsku uslugu.
 Način provjere | Član developer tima bi se trebao prijaviti u aplikaciju preko admin korisničkog imena i admin lozinke, nakon čega bi trebao vidjeti koju od ponuđenih medicinskih usluga ima svaki od korisnika. 
 Prioritet [1-5] | 2
@@ -79,7 +79,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-9
 -|-
-Zahtjev | Sustav omogućuje ispis svih zahtjeva za pregled koje je pacijent napravio
+Zahtjev | Sustav će omogućiti ispis svih zahtjeva za pregled koje je napravio pacijent 
 Obrazloženje | Pacijent nakon što se uspješno prijavi u aplikaciju će na početnom zaslonu moći vidjeti svoje zahjtebe za pregledom te će imati mogućnost ispisa svih svojih zahjteva za pregled pritiskom gumba "ispis" pokraj svakog zahtjeva.
 Način provjere | Pacijent bi se trebao uspješno prijaviti u aplikaciju, nakon čega bi trebao moći vidjeti svoje zahtjeve i pokraj svakog bi trebao imati gumb "ispis". Trebao bi stisnuti taj gumb i odabrani zahtjev bi se trebao ispisati.
 Prioritet [1-5] | 3
