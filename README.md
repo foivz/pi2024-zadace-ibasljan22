@@ -22,68 +22,69 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-2
 -|-
-Zahtjev | Sustav će omogućiti mijenjanje korisničkog imena i lozinke te unos osobnih i medicinskih podataka pacijentima i liječnicima
+Zahtjev | Sustav će omogućiti unos novog korisničkog imena i lozinke te unos osobnih i medicinskih podataka pacijentima i liječnicima
 Obrazloženje | Svaki liječnik koji prvi puta pristupa aplikaciji će dobiti iste podatke za prijavu u sustav. Nakon što se obavi prijava liječnik odabire novo korisničko ime i vlastitu lozinku te unosi medicinske i osobne podatke (email, broj telefona, radno mjesto). Svaki pacijent koji po prvi puta koristi aplikaciju će dobiti iste podatke za prijavu u aplikaciju. Nakon što tako obave prijavu morati će odabrati novo korisničko ime i lozinku te unijeti osobne i medicinske podatke (zdravstvena iskaznica, email za kontakt, broj telefona). Nakon toga liječnik ili pacijent se ponovno prijavljuju u aplikaciju pomoću odabranih korisničkih imena i lozinki. Dalje će moći koristiti određene funkcije aplikacije ovisno o tome koju ulogu imaju, liječnik opće medicine ili pacijent.
-Način provjere | Upis već zadanih korisničkih podataka za ulogu pacijenta ili liječnika opće prakse treba omogućiti prijavu u aplikaciju te dalje se moraju unijeti novi podaci, novo korisničko ime i lozinka te osobni i medicinski podaci korisnika. Nakon toga se vrši ponovna prijava u aplikaciju pomoću odabranog korisničkog imena i lozinke. Nakon uspješne prijave u aplikaciju trebao bi biti omogućen daljni rad u aplikaciji, ovisno o korisniku koji se prijavljuje, pacijent ili liječnik opće medicine.
+Način provjere | Upis već zadanih korisničkih podataka za ulogu pacijenta ili liječnika opće prakse treba omogućiti prijavu u aplikaciju te bi trebali dalje moći unijeti nove podatke, novo korisničko ime i lozinku te unijeti osobne i medicinske podatke. Nakon toga se vrši ponovna prijava u aplikaciju pomoću odabranog korisničkog imena i lozinke. Nakon uspješne prijave u aplikaciju trebao bi biti omogućen daljni rad u aplikaciji, ovisno o korisniku koji se prijavljuje, pacijent ili liječnik opće medicine.
 Prioritet [1-5] | 1
 Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-3
 -|-
-Zahtjev | Sustav će omogućiti odabir i pretplatu na jednu od ponuđenih zdravstvenih usluga te pregled na koju su uslugu točno pretplaćeni svakom autentificiranom pacijentu
-Obrazloženje | Pacijenti odmah čim se ulogiraju u aplikaciju imati će odmah prikazane ponuđene zdravstvene usluge. Pacijentima će biti omogućena fleksibilnost u odabiru paketa koji najbolje odgovaraju njihovim potrebama i financijskim mogućnostima.
-Način provjere | Nakon što se pacijenti ulogiraju u aplikaciju trebaju odabrati jedan od ponuđenih medicinskih usluga te dovršiti plaćanje odabrane usluge. Nakon plaćanja pacijent bi trebao vidjeti na koju je točno uslugu pretplaćen.
+Zahtjev | Sustav će omogućiti odabir i pretplatu na jednu od ponuđenih zdravstvenih usluga te prikaz na koju su uslugu točno pretplaćeni svakom autentificiranom pacijentu
+Obrazloženje | Pacijenti odmah čim se ulogiraju u aplikaciju imati će odmah prikazane ponuđene zdravstvene usluge. Pacijentima će biti omogućena fleksibilnost u odabiru paketa koji najbolje odgovaraju njihovim potrebama i financijskim mogućnostima. Prije nego što odaberu ikakvu uslugu, u desnom gornjem kutu ispod imena će im pisati da nemaju aktivnu uslugu, dokle god se ne pretplate na neku uslugu neće imati pristup funkcijama aplikacije. Nakon što odaberu svoju uslugu i odrade plaćanje, u desnom gornjem kutu ispod svoga imena će im pisati koju uslugu trenutno imaju i nakon toga će imati na raspolaganju odabir jednog od dostupnih i ugovorenih liječnika opće medicine
+Način provjere | Nakon što se pacijenti ulogiraju u aplikaciju pomoću vlastitog korisničkog imena i lozinke trebao bi odmah na ekranu vidjeti ponuđene usluge koje nudi aplikacija. Isto tako trebali bi vidjeti u gornjem desnom kutu ispod svoga imena da nemaju aktivnu uslugu. Trebaju odabrati jednu od ponuđenih usluga te obaviti plaćanje. Nakon što uspješno obave plaćanje na ekranu bi im se trebalo pokazati lista dostupnih i ugovorenih liječnika te na gornjem desnom kutu ispod svoga imena će vidjeti da imaju jednu od dostupnih usluga.
 Prioritet [1-5] | 2
 Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-4
 -|-
-Zahtjev | Sustav će omogućit odabir jednog od dostupnih i ugovorenih liječnika te mogućnost slanja zahtjeva za pregled svome liječniku  svakome autentificiranom pacijentu
-Obrazloženje | Nakon što se pacijent uspješno prijavi u aplikaciju na početnom ekranu će moći vidjeti svoje medicinske podatke, no isto tako će moći vidjeti listu liječnika na kojoj mora odabrati jednoga, a nakon odabira dobiva opciju za stvaranjem novog zahtjeva za pregled u kojem su sadržani medicinski podaci pacijenta.  
-Način provjere | Treba se uspješno prijaviti u aplikaciju te bi se odmah na početnom ekranu trebao odabrati liječnik i nakon toga bi trebala biti otključana opcija stvaranja zahtjeva za pregledom koji se odmah šalje liječniku i u njemu su medicinski podaci pacijenta. 
+Zahtjev | Sustav će omogućit odabir jednog od dostupnih i ugovorenih liječnika svakome autentificiranom pacijentu
+Obrazloženje | Nakon što se pacijent uspješno prijavi u aplikaciju te obavi plaćanje odabrane usluge, na početnom ekranu će moći vidjeti listu liječnika na kojoj mora odabrati jednoga od ponuđenih i ugovorenih liječnika opće medicine. Nakon odabira jednog od liječnika moći će stvarati i slati zahjteve za pregled tome liječniku.    
+Način provjere | Nakon što se pacijent uspješno prijavi u aplikaciju preko vlastitog korisničkog imena i lozinke te odabere i obavi plaćanje jedne od usluga trebao bi moći vidjeti listu svih dostupnih i ugovorenih liječnika. Nakon što pacijent odabere svoga liječnika trebao bi moći stvarati i slati zahtjeve tome liječniku. 
 Prioritet [1-5] | 1
 Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-5
 -|-
-Zahtjev | Sustav će omogućiti  pregled vlastitih zahtjeva za pregled, pregled medicinskih podataka, uključujući povijest bolesti, alergije, lijekove i laboratorijske nalaze svim autentificiranim pacijentima
-Obrazloženje | Pacijentima koji se uspješno prijave u aplikaciju pomoću korisničkog imena i lozinke će odmah na početnom ekranu moći vidjeti vlastito zdravstveno stanje uključujući povijest bolesti, alergije, lijekove i laboratorijske nalaze. Moći će vidjeti svoje zahtjeve za pregledom te u njima čitati preporuke, savjete svoga liječnika. 
-Način provjere | Trebalo bi se uspješno prijaviti u sustav sa korisničkim imenom i lozinkom nakon toga bi na početnom ekranu trebali vidjeti vlastito zdravstveno stanje uključujući povijest bolesti, alergije, lijekove, laboratorijske nalaze te vidjeti svoje zahtjeve za pregledom te u njima čitati preporuke, savjete svoga liječnika. 
-Prioritet [1-5] | 3
+Zahtjev | Sustav će omogućiti stvaranje zahtjeva za pregled svim autentificiranim pacijentima
+Obrazloženje | Nakon što se pacijent uspješno prijavi u aplikaciju i obavio je odabir i plaćanje svoje usluge te odabir svoja liječnika, imati će mogućnost stvaranja zahtjeva za pregled i slanje toga zahtjeva svome liječniku. U zahtjev će opisati svoj problem. Liječnik kada primi zahtjev trebao bi ga pročitati te odmah ići poslati pacijentu na mail link na zoom poziv. Gdje bi dalje pacijent trebao detaljnije objasniti svoj problem svome liječniku. Opis u zahtjevu služi kao kratak naputak liječniku, da dobije generalnu informaciju što je problem.
+Način provjere | Nakon uspješne prijave pacijenta preko vlastitog korisničkog imena i lozinke te odrađenog odabira i plaćanja usluge i odabira vlastitog liječnika, pacijent bi trebao moći stvoriti zahtjev za pregled. U zahjtev stavlja opis svoga problema te zahjtev ide direktno liječniku kojega je odabrao. 
+Prioritet [1-5] | 2
 Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-6
 -|-
-Zahtjev | Sustav će omogućiti liječnicima da vide koga imaju za pacijenta te pregled pacijentovih osobnih i medicinskih podataka 
-Obrazloženje | Nakon što se liječnik prijavi u aplikaciju pomoću korisničkog imena i vlastite lozinke na početnom zaslonu će vidjeti sve pacijenata koji su njega odabrali za svoga liječnika na aplikaciji, a ako odabere nekog od pacijenata onda će mu prikazati osobne i medicinske podatke samog pacijetna.  
-Način provjere | Liječnik bi se trebao uspješno prijaviti u aplikaciju te bi odmah na početnom zaslonu trebao vidjeti sve svoje pacijente, a kada bi kliknuo na jednog od njih onda bi mu se trebali prikazati osobni i medicinski podaci toga pacijenta.
+Zahtjev | Sustav će omogućiti pregled liste zahtjeva svakom autentificiranom liječniku
+Obrazloženje | Liječnik kada se uspješno prijavi u aplikaciju će odmah na ekranu imati pregled svih zahtjeva koje je dobio od svojih pacijenata. Moći će vidjeti ime i prezime pacijenta, status zahtjeva je li u novi, u tijeku ili gotov te će moći vidjeti kratak opis zahtjeva kojega je napisao pacijent. Liječnik će moći otvoriti svaki od zahtjeva te u njemu dopisivati i uređivati stvari ovisno o nalazima, rezultatima pretraga koje dobije te na temelju razgovora sa pacijentom.
+Način provjere | Nakon što se liječnik uspješno prijavi u aplikaciju pomoću odabranog korisničkog imena i lozinke trebao bi odmah na ekranu imati pregled svih zahtjeva koje je dobio od svojih pacijenata.
 Prioritet [1-5] | 3
 Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-7
 -|-
-Zahtjev | Sustav će omogućiti uređivanje i pregledavanje svih zahtjeva za pregled na temelju rezultata nalaza i razgovora sa pacijentom svakom autentificiranom liječniku
-Obrazloženje | Liječnici će imati uvid u zahtjev za pregled koji dobije od pacijenta. Moći će uređivati i pisati vlastite bilješke, preporuke na temelju nalaza, pretraga i razgovora sa pacijentom.
-Način provjere | Kada se liječnik prijavi u sustav imati će uvid u sve zahtjeve za pregled koje je dobio od svojih pacijenata. U njih će moći pisati preporuke, rezultate nalaza i pretraga te uređivate sve te podatke.
+Zahtjev | Sustav će omogućiti uređivanje svih zahtjeva za pregled svakom autentificiranom liječniku
+Obrazloženje | Liječnik nakon što se uspješno prijavi u aplikaciju, odmah na ekranu će vidjeti sve zahjteve koje je dobio od pacijenata. Nakon što klikne na jedan u njemu će moći dodavati određene informacije koje su bitne za pacijenta. Unosi informacije na temelju dobivenih nalaza svoga pacijenta, na temelju pretraga i drugo. Mijenja status samog zahtjeva u tijeku ili gotov, ovisi je li još na tom pacijentu ili je pacijentu bolje. 
+Način provjere | Nakon što se liječnik uspješno prijavi u aplikaciju preko vlastitog korisničkog imena i lozinke trebao bi imati pregled svih zahtjeva za pregled koje je dobio od svojih pacijenata. Trebao bi moći kliknuti na svaki od njih te tako ući u sam zahtjev gdje će moći uređivati i dodavati određene informacije bitne za pacijenta.
 Prioritet [1-5] | 1
 Izvor/Porijeklo | Developer tim aplikacije
 
 
 Identifikator | FZ-8
 -|-
-Zahtjev | Sustav će omogućiti ispis statističkih podatka korištenja pojedine medicinske usluge developer timu aplikacije
-Obrazloženje | Developer tim aplikacije ima uvid u sve aspekte same aplikacije te će moći vidjeti koliko korisnika koristi koju medicinsku uslugu.
-Način provjere | Član developer tima bi se trebao prijaviti u aplikaciju preko admin korisničkog imena i admin lozinke, nakon čega bi trebao vidjeti koju od ponuđenih medicinskih usluga ima svaki od korisnika. 
-Prioritet [1-5] | 2
+Zahtjev | Sustav će omogućiti pregled statističkih podatka korištenja pojedine medicinske usluge developer timu aplikacije
+Obrazloženje | Developer timu aplikacije će biti omogućen uvid u podatke o tome koju točno uslugu koristi koji korisnik, koliko korisnika koristi koju uslugu te će moći sve te podatke vidjeti u obliku grafa.
+Način provjere | Član developer tima bi se trebao prijaviti u aplikaciju preko admin korisničkog imena i admin lozinke, nakon čega bi trebao vidjeti koju od ponuđenih medicinskih usluga ima svaki od korisnika te će moći sve te podatke vidjeti u obliku grafa. 
+Prioritet [1-5] | 3
 Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-9
 -|-
-Zahtjev | Sustav će omogućiti ispis svih zahtjeva za pregled koje je napravio pacijent 
-Obrazloženje | Pacijent nakon što se uspješno prijavi u aplikaciju će na početnom zaslonu moći vidjeti svoje zahjtebe za pregledom te će imati mogućnost ispisa svih svojih zahjteva za pregled pritiskom gumba "ispis" pokraj svakog zahtjeva.
-Način provjere | Pacijent bi se trebao uspješno prijaviti u aplikaciju, nakon čega bi trebao moći vidjeti svoje zahtjeve i pokraj svakog bi trebao imati gumb "ispis". Trebao bi stisnuti taj gumb i odabrani zahtjev bi se trebao ispisati.
+Zahtjev | Sustav će omogućiti pregled svih zahtjeva za pregled koje je napravio pacijent 
+Obrazloženje | Pacijent kad se uspješno prijavi u aplikaciju te odabere i plati uslugu, odabere liječnika, na ekranu će vidjeti zahtjeve za pregled koje je poslao svome liječniku, ako ih ima. Vidjeti će svoje ime i prezime, opis koji je stavio te status zahtjeva. Novi, znaći da ga liječnik još nije vidio, u tijeku, znači da liječnik pregledava zahtjev ili čeka nalaze pretraga koje je pacijent obavio, gotov, znači da mu je liječnik pomogao sa medicinskim problemom.
+Način provjere | Nakon što se pacijent uspješno prijavi u aplikaciju pomoću vlastitog korisničkog imena i lozinke, odabrane i plaćene usluge i odabranog liječnika, trebao bi vidjeti zahtjeve koje je napravio za liječnika, ako je napravio ikakav zahtjev. Trebao bi vidjeti svoje ime i prezime, opis te status zahtjeva.
 Prioritet [1-5] | 3
 Izvor/Porijeklo | Developer tim aplikacije
+
 
 ## Zadatak
 [Link na zadatak](https://github.com/foivz/pi2024-zadace-ibasljan22/blob/master/Korisni%C4%8Dki%20zahtjevi%20-%20Softver%20za%20osobnu%20telemedicinu.pdf)
