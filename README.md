@@ -54,7 +54,7 @@ Izvor/Porijeklo | Developer tim aplikacije
 
 Identifikator | FZ-6
 -|-
-Zahtjev | Sustav će omogućiti pregled liste zahtjeva svakom autentificiranom liječniku
+Zahtjev | Sustav će omogućiti pregled liste zahtjeva za pregled svakom autentificiranom liječniku
 Obrazloženje | Liječnik kada se uspješno prijavi u aplikaciju će odmah na ekranu imati pregled svih zahtjeva koje je dobio od svojih pacijenata. Moći će vidjeti ime i prezime pacijenta, status zahtjeva je li u novi, u tijeku ili gotov te će moći vidjeti kratak opis zahtjeva kojega je napisao pacijent. Liječnik će moći otvoriti svaki od zahtjeva te u njemu dopisivati i uređivati stvari ovisno o nalazima, rezultatima pretraga koje dobije te na temelju razgovora sa pacijentom.
 Način provjere | Nakon što se liječnik uspješno prijavi u aplikaciju pomoću odabranog korisničkog imena i lozinke trebao bi odmah na ekranu imati pregled svih zahtjeva koje je dobio od svojih pacijenata.
 Prioritet [1-5] | 3
