@@ -80,7 +80,7 @@ Izvor/Porijeklo | Osiguravajuća kuća
 Identifikator | FZ-9
 -|-
 Zahtjev | Sustav će omogućiti pregled svih zahtjeva za pregled koje je napravio pacijent 
-Obrazloženje | Pacijent kad se uspješno prijavi u aplikaciju te odabere i plati uslugu, odabere liječnika, na ekranu će vidjeti zahtjeve za pregled koje je poslao svome liječniku, ako ih ima. Vidjeti će svoje ime i prezime, opis koji je stavio te status zahtjeva. Novi, znaći da ga liječnik još nije vidio, u tijeku, znači da liječnik pregledava zahtjev ili čeka nalaze pretraga koje je pacijent obavio, gotov, znači da mu je liječnik pomogao sa medicinskim problemom.
+Obrazloženje | Pacijent kad se uspješno prijavi u aplikaciju te odabere i plati uslugu, odabere liječnika, na ekranu će vidjeti zahtjeve za pregled koje je poslao svome liječniku, ako ih ima. Vidjeti će datum kad je poslan, opis koji je stavio te status zahtjeva. Novi, znaći da ga liječnik još nije vidio, u tijeku, znači da liječnik pregledava zahtjev ili čeka nalaze pretraga koje je pacijent obavio, gotov, znači da mu je liječnik pomogao sa medicinskim problemom.
 Način provjere | Nakon što se pacijent uspješno prijavi u aplikaciju pomoću vlastitog korisničkog imena i lozinke, odabrane i plaćene usluge i odabranog liječnika, trebao bi vidjeti zahtjeve koje je napravio za liječnika, ako je napravio ikakav zahtjev. Trebao bi vidjeti svoje ime i prezime, opis te status zahtjeva.
 Prioritet [1-5] | 3
 Izvor/Porijeklo | Osiguravajuća kuća
