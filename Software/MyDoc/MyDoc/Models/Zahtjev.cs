@@ -13,8 +13,7 @@ namespace MyDoc.Models
 
         public string VrijemeTermina {  get; set; }
         public string Obrazloženje { get; set; }
-        public bool MogućnostVideoPoziva { get; set; }
-        public string Status { get; set; }
+        public string MogučnostVideopoziva { get; set; }
         public string Opis()
         {
             return Obrazloženje;
