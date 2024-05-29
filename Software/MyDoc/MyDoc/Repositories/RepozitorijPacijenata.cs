@@ -104,16 +104,18 @@ namespace MyDoc.Repositories
 
         private static Zahtjev CreateObject(SqlDataReader reader)
         {
-            int id = int.Parse(reader["Id"].ToString());
+            int id = int.Parse(reader["ID"].ToString());
             string vrijemetermina = reader["VrijemeTermina"].ToString();
             string obrazlozenje = reader["Obrazloženje"].ToString();
             string mogucnostvideopoziva = reader["MogučnostVideopoziva"].ToString();
+            int idp = int.Parse(reader["IDPacijent"].ToString());
             var zahtjev = new Zahtjev
             {
-                Id = id,
+                ID = id,
                 VrijemeTermina = vrijemetermina,
                 Obrazloženje = obrazlozenje,
-                MogučnostVideopoziva = mogucnostvideopoziva
+                MogučnostVideopoziva = mogucnostvideopoziva,
+                IDPacijent = idp
             };
             return zahtjev;
         }
@@ -121,18 +123,15 @@ namespace MyDoc.Repositories
 
         public static void SpremiZahtjev(Zahtjev zahtjev)
         {
-            string sql = $"INSERT INTO Zahtjev (VrijemeTermina, Obrazloženje, MogučnostVideopoziva) VALUES ('{zahtjev.VrijemeTermina}','{zahtjev.Obrazloženje}','{zahtjev.MogučnostVideopoziva}')";
-
+            string sql = $"INSERT INTO Zahtjev (VrijemeTermina, Obrazloženje, MogučnostVideopoziva, IDPacijent) VALUES ('{zahtjev.VrijemeTermina}', '{zahtjev.Obrazloženje}', '{zahtjev.MogučnostVideopoziva}', '{zahtjev.IDPacijent}')";
             DB.OpenConnection();
-            DB.GetDataReader(sql);
+            DB.ExecuteCommand(sql);
             DB.CloseConnection();
         }
 
         public static void UrediZahtjev(Zahtjev zahtjev, int id)
         {
-
-            string sql = $"UPDATE Zahtjev SET Obrazloženje= '{zahtjev.Obrazloženje}', VrijemeTermina= '{zahtjev.VrijemeTermina}', WHERE Id= {id}";
-
+            string sql = $"UPDATE Zahtjev SET Obrazloženje= '{zahtjev.Obrazloženje}', VrijemeTermina= '{zahtjev.VrijemeTermina}', MogučnostVideopoziva= '{zahtjev.MogučnostVideopoziva}', IDPacijent = {zahtjev.IDPacijent} WHERE Id= {id}";
             DB.OpenConnection();
             DB.ExecuteCommand(sql);
             DB.CloseConnection();

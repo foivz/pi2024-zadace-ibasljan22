@@ -9,14 +9,16 @@ namespace MyDoc.Models
 {
     public class Zahtjev
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
 
         public string VrijemeTermina {  get; set; }
         public string Obrazloženje { get; set; }
         public string MogučnostVideopoziva { get; set; }
+        public int IDPacijent {  get; set; }
         public string Opis()
         {
             return Obrazloženje;
         }
     }
+
 }

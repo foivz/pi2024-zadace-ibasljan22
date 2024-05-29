@@ -34,5 +34,27 @@ namespace MyDoc
             List<Zahtjev> zahtjevi = RepozitorijPacijenata.DohvatiZahtjeve();
             dgvZahtjev.DataSource = zahtjevi;
         }
+        private void FrmPacijent_Load_1(object sender, EventArgs e)
+        {
+            PrikaziZahtjeve();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmKreiranjeZahtjeva frmKreiranjeZahtjeva = new FrmKreiranjeZahtjeva();
+            Hide();
+            frmKreiranjeZahtjeva.ShowDialog();
+            Close();
+        }
+
+        private void UrediOpis_Click(object sender, EventArgs e)
+        {
+            FrmKreiranjeZahtjeva frmKreiranjeZahtjeva = new FrmKreiranjeZahtjeva();
+            int id = (int)dgvZahtjev.SelectedCells[0].OwningRow.Cells["Id"].Value;
+            frmKreiranjeZahtjeva.Editing(id);
+            Hide();
+            frmKreiranjeZahtjeva.ShowDialog();
+            Close();
+        }
     }
 }
