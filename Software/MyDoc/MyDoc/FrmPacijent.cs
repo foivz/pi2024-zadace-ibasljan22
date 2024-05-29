@@ -56,5 +56,11 @@ namespace MyDoc
             frmKreiranjeZahtjeva.ShowDialog();
             Close();
         }
+
+        private void txtPretraži_TextChanged(object sender, EventArgs e)
+        {
+            List<Zahtjev> zahtjevi = RepozitorijPacijenata.DohvatiZahtjevString(txtPretraži.Text);
+            dgvZahtjev.DataSource = zahtjevi;
+        }
     }
 }

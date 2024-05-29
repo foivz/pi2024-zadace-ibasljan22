@@ -68,7 +68,7 @@ namespace MyDoc.Repositories
             return zahtjev;
         }
 
-        public static List<Zahtjev> DohvatiZahtjevString(int vrijemetermina)
+        public static List<Zahtjev> DohvatiZahtjevString(string vrijemetermina)
         {
             List<Zahtjev> zahtjevi = new List<Zahtjev>();
             string sql = $"SELECT * FROM Zahtjev WHERE VrijemeTermina LIKE '%{vrijemetermina}%'";
