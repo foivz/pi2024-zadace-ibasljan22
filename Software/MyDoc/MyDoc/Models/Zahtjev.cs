@@ -15,10 +15,7 @@ namespace MyDoc.Models
         public string Obrazloženje { get; set; }
         public string MogučnostVideopoziva { get; set; }
         public int IDPacijent {  get; set; }
-        public string Opis()
-        {
-            return Obrazloženje;
-        }
+
     }
 
 }
