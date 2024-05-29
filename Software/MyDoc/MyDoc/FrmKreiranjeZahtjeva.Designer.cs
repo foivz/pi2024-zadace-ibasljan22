@@ -125,6 +125,11 @@
             // nmbrid
             // 
             this.nmbrid.Location = new System.Drawing.Point(252, 344);
+            this.nmbrid.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.nmbrid.Name = "nmbrid";
             this.nmbrid.Size = new System.Drawing.Size(227, 22);
             this.nmbrid.TabIndex = 8;
