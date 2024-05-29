@@ -62,5 +62,26 @@ namespace MyDoc
             List<Zahtjev> zahtjevi = RepozitorijPacijenata.DohvatiZahtjevString(txtPretraži.Text);
             dgvZahtjev.DataSource = zahtjevi;
         }
+
+        private void txtPretraga_TextChanged(object sender, EventArgs e)
+        {
+            List<Zahtjev> zahtjevi = RepozitorijPacijenata.DohvatiZahtjevOpis(txtPretraga.Text);
+            dgvZahtjev.DataSource = zahtjevi;
+        }
+
+        private void btnObriši_Click(object sender, EventArgs e)
+        {
+            int id = (int)dgvZahtjev.SelectedCells[0].OwningRow.Cells["Id"].Value;
+
+            string sql = $"DELETE FROM Zahtjev WHERE Id = {id}";
+
+            DB.OpenConnection();
+            DB.ExecuteCommand(sql);
+            DB.CloseConnection();
+            FrmPacijent frmEmployer = new FrmPacijent();
+            Hide();
+            frmEmployer.ShowDialog();
+            Close();
+        }
     }
 }

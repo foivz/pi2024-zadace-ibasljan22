@@ -68,6 +68,22 @@ namespace MyDoc.Repositories
             return zahtjev;
         }
 
+        public static List<Zahtjev> DohvatiZahtjevOpis(string obrazlozenje)
+        {
+            List<Zahtjev> zahtjevi = new List<Zahtjev>();
+            string sql = $"SELECT * FROM Zahtjev WHERE Obrazloženje LIKE '%{obrazlozenje}%'";
+            DB.OpenConnection();
+            var reader = DB.GetDataReader(sql);
+            while (reader.Read())
+            {
+                Zahtjev zahtjev = CreateObject(reader);
+                zahtjevi.Add(zahtjev);
+            }
+            reader.Close();
+            DB.CloseConnection();
+            return zahtjevi;
+        }
+
         public static List<Zahtjev> DohvatiZahtjevString(string vrijemetermina)
         {
             List<Zahtjev> zahtjevi = new List<Zahtjev>();
