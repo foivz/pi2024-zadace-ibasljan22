@@ -44,6 +44,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(72, 76);
             this.label1.Name = "label1";
@@ -53,6 +54,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(72, 139);
             this.label2.Name = "label2";
@@ -62,6 +64,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(72, 282);
             this.label3.Name = "label3";
@@ -71,8 +74,7 @@
             // 
             // txtObrazlozenje
             // 
-            this.txtObrazlozenje.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtObrazlozenje.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtObrazlozenje.Location = new System.Drawing.Point(252, 136);
             this.txtObrazlozenje.Name = "txtObrazlozenje";
             this.txtObrazlozenje.Size = new System.Drawing.Size(437, 96);
@@ -81,9 +83,7 @@
             // 
             // txtTermin
             // 
-            this.txtTermin.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtTermin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtTermin.Location = new System.Drawing.Point(252, 76);
             this.txtTermin.Name = "txtTermin";
             this.txtTermin.Size = new System.Drawing.Size(227, 22);
@@ -91,6 +91,7 @@
             // 
             // cboOdabir
             // 
+            this.cboOdabir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cboOdabir.FormattingEnabled = true;
             this.cboOdabir.Items.AddRange(new object[] {
             "Da",
@@ -105,18 +106,18 @@
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Location = new System.Drawing.Point(625, 401);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 23);
+            this.button1.Size = new System.Drawing.Size(113, 37);
             this.button1.TabIndex = 6;
-            this.button1.Text = "Stvori";
+            this.button1.Text = "Spremi";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnOdustani
             // 
             this.btnOdustani.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnOdustani.Location = new System.Drawing.Point(63, 401);
+            this.btnOdustani.Location = new System.Drawing.Point(75, 401);
             this.btnOdustani.Name = "btnOdustani";
-            this.btnOdustani.Size = new System.Drawing.Size(121, 23);
+            this.btnOdustani.Size = new System.Drawing.Size(121, 37);
             this.btnOdustani.TabIndex = 7;
             this.btnOdustani.Text = "Odustani";
             this.btnOdustani.UseVisualStyleBackColor = true;
@@ -124,9 +125,10 @@
             // 
             // nmbrid
             // 
+            this.nmbrid.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.nmbrid.Location = new System.Drawing.Point(252, 344);
             this.nmbrid.Maximum = new decimal(new int[] {
-            1,
+            2,
             0,
             0,
             0});
@@ -136,6 +138,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(72, 344);
             this.label4.Name = "label4";

@@ -63,6 +63,12 @@ namespace MyDoc
                          MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            else if (nmbrid.Value == 0)
+            {
+                MessageBox.Show("Niste odabrali svoj ID!", "Problem",
+                             MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             else
             {
 
